@@ -1,15 +1,23 @@
-import "./footer.css";
-import { Button } from "../Button/button";
+import "./Footer.css";
 
 export const Footer = () => `
-
 <h2>Contact</h2>
-<div>
-${Button("/public/github.jpeg", "GitHub", "https://https://github.com/belum88")}
-${Button(
-  "/public/linkedin.jpeg",
-  "LinkedIn",
-  "www.linkedin.com/in/abelferma/"
-)}
-</div>
+<ul class="social-links">
+  <li>
+    <a href="mailto:abel.fernandez.martinez@gmail.com" target="_blank" rel="noopener"
+      ><img src="gmail.png" alt="Gmail icon"
+    /></a>
+  </li>
+  <li>
+    <a href="https://github.com/belum88" target="_blank" rel="noopener"
+      ><img src="github.png" alt="Github icon"
+    /></a>
+  </li>
+  <li>
+    <a href="https://linkedin.com/in/abelferma" target="_blank" rel="noopener"
+      ><img src="linkedin.png" alt="LinkedIn icon"
+    /></a>
+  </li>
+</ul>
+<p>&copy; 2024, Abel Fernández</p>
 `;
