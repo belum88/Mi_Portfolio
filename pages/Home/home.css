@@ -1,31 +1,56 @@
 .home {
-    padding: 0 8rem;
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 3rem;
-  }
-  
-  @media (max-width: 700px) {
-    .home {
-      padding: 0 2rem;
-    }
-  }
-  
-  .home > h1 {
-    font-size: 5.5rem;
-    background: linear-gradient(
-      90deg,
-      rgba(133, 238, 190, 1) 0%,
-      rgba(242, 148, 215, 1) 100%
-    );
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  
-  .home > a {
-    font-size: 1.5rem;
-  }
+  width: 100%;
+  border: var(--border);
+  padding: var(--spacing);
+}
+
+.home > article {
+  width: 100%;
+  padding: var(--spacing);
+  gap: var(--spacing);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.body-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: var(--spacing);
+  gap: var(--spacing);
+}
+
+.body-article img {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+}
+
+.personal-information {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: var(--spacing);
+  gap: var(--spacing);
+}
+
+.personal-information > h3 {
+  font-size: 3rem;
+  -webkit-text-stroke: 1.5px black;
+  color: var(--orange-red);
+}
+
+.personal-information > span {
+  font-size: 1.3rem;
+  text-align: center;
+  color: #ff4000c6;
+}
+
+.personal-information > p {
+  text-align: justify;
+}

@@ -1,21 +1,69 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
 
 :root {
-  --primary-dark: whitesmoke;
-  --bg-dark: #111111;
-  --primary-light: #111111;
-  --bg-light: whitesmoke;
-  --highlight: #6cace4;
-  --divider: rgb(164, 164, 164);
+  --eerie-black: #1a1f16;
+  --platinum: #dae2df;
+  --antique-white: #feefdd;
+  --orange-red: #ff4000;
+  --gunmetal: #2d3142;
+  --spacing: 1rem;
+  --border: 2px solid black;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 }
 
+body.light {
+  background-color: var(--antique-white);
+  color: var(--eerie-black);
+  background-image: url("https://www.transparenttextures.com/patterns/rice-paper-2.png");
+  padding: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+body.dark {
+  background-color: var(--gunmetal);
+  color: var(--platinum);
+  background-image: url("https://www.transparenttextures.com/patterns/rice-paper-2.png");
+  padding: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(14, 13, 13, 0.3);
+  background-color: var(--antique-white);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--orange-red);
+}
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+p {
+  font-size: 20px;
+}
+
+ul,
 li {
   list-style-type: none;
 }
@@ -23,28 +71,10 @@ li {
 a {
   text-decoration: none;
   color: inherit;
+  transition: all 0.3s ease-in-out;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  background-color: var(--bg-dark);
-  color: var(--primary-dark);
-  transition: all 0.5s ease-in-out;
-}
-
-.light {
-  background-color: var(--bg-light);
-  color: var(--primary-light);
-}
-
-main {
-  min-height: 80vh;
-}
-
-a,
-p {
-  font-size: 1.1rem;
+a:hover {
+  color: var(--orange-red);
+  font-weight: bold;
 }

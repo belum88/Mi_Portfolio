@@ -1,12 +1,11 @@
 import "./style.css";
-import { changeTheme } from "./utils/changeTheme";
+import { changeTheme } from "./components/Navbar/Navbar";
+import { getDate } from "./components/Navbar/Navbar";
 import { linkPage } from "./utils/linkPage";
-import { Navbar } from "./components/NavBar/navBar";
-import { Footer } from "./components/Footer/footer";
-import { Home } from "./pages/Home/home";
-import { Projects } from "./pages/Projects/projects";
-import { Resume } from "./pages/Resume/resume";
-import { Divider } from "./components/Divider/divider";
+import { Navbar } from "./components/Navbar/Navbar";
+import { Footer } from "./components/Footer/Footer";
+import { Home } from "./pages/Home/Home";
+import { Projects } from "./pages/Projects/Projects";
 
 const header = document.querySelector("header");
 header.innerHTML = Navbar();
@@ -15,10 +14,11 @@ footer.innerHTML = Footer();
 
 linkPage("#homelink", Home);
 linkPage("#projectslink", Projects);
-linkPage("#resumelink", Resume);
 
 Home();
 
 changeTheme();
 
-footer.insertAdjacentHTML("beforebegin", Divider());
+document.body.classList.add("light");
+
+getDate();
