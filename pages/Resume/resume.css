@@ -1,0 +1,57 @@
+.resume {
+    padding: 0 8rem;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  h1 {
+    font-size: 40px;
+    font-weight: 400;
+  }
+  
+  .titleResume {
+    font-size: 20px;
+    font-weight: 300;
+  }
+  
+  .hereLink {
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+  }
+  
+  h2 {
+    font-size: 25px;
+    font-weight: 400;
+    width: 50%;
+  }
+  
+  .columns {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  
+  #educationList {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 30px;
+  }
+  
+  #employmentList {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .line {
+    display: flex;
+    gap: 15px;
+  }
