@@ -1,38 +1,38 @@
 export const projects = [
   {
-    title: "FC Barcelona - Store",
+    title: "Pc-Componentes",
     description:
-      "A sleek FC Barcelona store website showcasing official merchandise with a responsive design. Built using HTML, CSS, and JavaScript for smooth navigation and dynamic features.",
-    image: "/fc-barcelona-thumbnail.svg",
+      "replicate the pccomponents website with a responsive design. Built using HTML, CSS, and JavaScript for smooth navigation and dynamic features.",
+    image: "/public/pccomponentes1.webp",
     tech: ["HTML5", "CSS3", "JavaScript"],
-    github: "https://github.com/marinalsz/practica_dom.git",
-    link: "https://fc-barcelona-tienda.vercel.app/",
+    github: "https://github.com/belum88/Practica_dom",
+    link: "https://vercel.com/belum88s-projects/practica-dom",
   },
   {
-    title: "Dua Lipa - Store",
+    title: "Pesca total - Store",
     description:
-      "A stylish Dua Lipa store website featuring exclusive merchandise, vibrant visuals, and interactive design. Created with HTML and CSS for an engaging shopping experience.",
-    image: "/dua-lipa-thumbnail.svg",
+      "Pesca total store website featuring exclusive merchandise,visuals, and interactive design. Created with HTML and CSS for an engaging shopping experience.",
+    image: "/public/tienda.webp",
     tech: ["HTML5", "CSS3"],
-    github: "https://github.com/marinalsz/entrega_proyecto1.git",
-    link: "https://dua-lipa-store.vercel.app/",
+    github: "https://github.com/belum88/Entrega_Proyecto_1",
+    link: "https://vercel.com/belum88s-projects/entrega-proyecto-1-6pit",
   },
   {
-    title: "NBA - Grid",
+    title: "Grid",
     description:
-      "A minimalist NBA website showcasing iconic photos and inspiring quotes, styled with CSS Grid for a balanced and elegant layout.",
-    image: "/nba-thumbnail.svg",
+      " Styled with CSS Grid for a balanced and elegant layout.",
+    image: "/public/grid.svg",
     tech: ["HTML5", "CSS3"],
-    github: "https://github.com/marinalsz/entrega_grid.git",
-    link: "https://nba-grid.vercel.app/",
+    github: "https://github.com/belum88/Gridt",
+    link: "https://grid-ebon.vercel.app/",
   },
   {
-    title: "Yellowbird",
+    title: "Position",
     description:
       "A simplified replica of the Yellowbird website, featuring a clean layout and smooth navigation, built with HTML and CSS.",
-    image: "/yellowbird-thumbnail.svg",
+    image: "/public/position.svg",
     tech: ["HTML5", "CSS3"],
-    github: "https://github.com/marinalsz/entrega_flexbox.git",
+    github: "https://github.com/belum88/Position",
     link: "https://yellowbird.vercel.app/",
   },
 ];

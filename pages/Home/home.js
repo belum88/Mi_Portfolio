@@ -11,9 +11,9 @@ export const Home = () => {
         <div class="body-article">
           <img src="/computer.png" alt="Computer drawing">
           <div class="personal-information">
-            <h3>I'm Marina</h3>
-            <span>she/her · /məˈɹiːnə/</span>
-            <p>A vocational training and a Master's degree student in <strong>Full Stack Development</strong> based in southern Spain. I’m passionate about music and creating content related to it.</p>
+            <h3>I'm Abel</h3>
+            
+            <p>Python developer , web application development student.</p>
           </div>
         </div>
       </article>

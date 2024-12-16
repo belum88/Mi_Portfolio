@@ -3,8 +3,8 @@
 :root {
   --eerie-black: #1a1f16;
   --platinum: #dae2df;
-  --antique-white: #feefdd;
-  --orange-red: #ff4000;
+  --antique-white: #d88218;
+  --orange-red: #dbf304;
   --gunmetal: #2d3142;
   --spacing: 1rem;
   --border: 2px solid black;
@@ -20,7 +20,7 @@
 body.light {
   background-color: var(--antique-white);
   color: var(--eerie-black);
-  background-image: url("https://www.transparenttextures.com/patterns/rice-paper-2.png");
+  background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
   padding: 10px;
   transition: all 0.5s ease-in-out;
 }
@@ -28,7 +28,7 @@ body.light {
 body.dark {
   background-color: var(--gunmetal);
   color: var(--platinum);
-  background-image: url("https://www.transparenttextures.com/patterns/rice-paper-2.png");
+  background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
   padding: 10px;
   transition: all 0.5s ease-in-out;
 }
