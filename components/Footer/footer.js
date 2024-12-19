@@ -19,5 +19,5 @@ export const Footer = () => `
     /></a>
   </li>
 </ul>
-<p>&copy; 2024, Abel Fernández</p>
+<p>&copy; 2024, belum88</p>
 `;

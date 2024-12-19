@@ -43,15 +43,15 @@ export const Navbar = () => `
   <div class="top-nav">
     <div class="title">
       <p id="dateP"></p>
-      <h1>Abel Fernández</h1>
+      <h1>abel fernández (belum)</h1>
       <p id="position">Full Stack Developer</p>
     </div>
     <div class="forecast">
-      <p>Weather forecast</p>
+      <p>Change</p>
       <div class="forecast-information">
-        <p id="weather">With the new moon, expect especially dark skies perfect for stargazing. Cool, calm, and crisp conditions will prevail—bundle up if heading out!</p>
+        
         <button id="themeBtn">
-          <img src="/moon.png" alt="Moon drawing" id="themeImg">
+          <img src="/moon.png" alt="Moon " id="themeImg">
         </button>
       </div>
     </div>

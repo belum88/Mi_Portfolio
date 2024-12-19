@@ -3,7 +3,7 @@ export const projects = [
     title: "Pc-Componentes",
     description:
       "replicate the pccomponents website with a responsive design. Built using HTML, CSS, and JavaScript for smooth navigation and dynamic features.",
-    image: "/public/pccomponentes1.webp",
+    image: "/public/desktop-computer-icon-computer-86448c.webp",
     tech: ["HTML5", "CSS3", "JavaScript"],
     github: "https://github.com/belum88/Practica_dom",
     link: "https://vercel.com/belum88s-projects/practica-dom",
@@ -24,15 +24,15 @@ export const projects = [
     image: "/public/grid.svg",
     tech: ["HTML5", "CSS3"],
     github: "https://github.com/belum88/Gridt",
-    link: "https://grid-ebon.vercel.app/",
+    link: "https://vercel.com/belum88s-projects/grid/",
   },
   {
     title: "Position",
     description:
       "A simplified replica of the Yellowbird website, featuring a clean layout and smooth navigation, built with HTML and CSS.",
-    image: "/public/position.svg",
+    image: "/public/positiion.svg",
     tech: ["HTML5", "CSS3"],
     github: "https://github.com/belum88/Position",
-    link: "https://yellowbird.vercel.app/",
+    link: "https://vercel.com/belum88s-projects/position",
   },
 ];
